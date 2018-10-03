@@ -30,7 +30,7 @@
     "scripts": {
         "start": "php -S localhost:8080 -t public",
         "test": "phpunit",
-        "appkey": "php appkey.php",
+        "apptoken": "php apptoken.php",
         "post-install-cmd": [
             "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],

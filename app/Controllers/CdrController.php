@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Filters\Filter;
 use App\Models\Cdr;
 use Aura\Filter\FilterFactory;
 use Slim\Http\Request;
